@@ -171,3 +171,4 @@ for i in Number:
 Number=f_num
 result=digits(Number) if len(Number) == 1 else double_digits(Number) if len(Number) == 2 else triple_digits(Number) if len(Number) == 3 else four_digits(Number) if len(Number) == 4 else five_digits(Number) if len(Number) == 5 else six_digits(Number) if len(Number) == 6 else seven_digits(Number) if len(Number) == 7 else eight_digits(Number) if len(Number) == 8 else nine_digits(Number) if len(Number) == 9 else ten_digits(Number) if len(Number) == 10 else ''
 print("The Number in Words : ",result,"\n\n")
+
